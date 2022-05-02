@@ -15,11 +15,11 @@ def countdown_timer(seconds):
         
         seconds -= 1
       
-    print('Time Up!')
+    print('¡Se acabó el tiempo!')
   
   
 # input time en segundos.
-seconds = input("Enter the time in number of seconds: ")
+seconds = input("Escribe el tiempo en numeros de segundos: ")
   
 # Llama a la función
 countdown_timer(int(seconds))
