@@ -1,7 +1,7 @@
-# import the time module
+# importa el módulo time.
 import time
   
-# define the countdown timer function
+# define la cuenta regresiva de la funcion timer.
 def countdown_timer(seconds):
     
     while seconds > 0:       
@@ -18,8 +18,8 @@ def countdown_timer(seconds):
     print('Time Up!')
   
   
-# input time in seconds
+# input time en segundos.
 seconds = input("Enter the time in number of seconds: ")
   
-# function call
+# Llama a la función
 countdown_timer(int(seconds))
